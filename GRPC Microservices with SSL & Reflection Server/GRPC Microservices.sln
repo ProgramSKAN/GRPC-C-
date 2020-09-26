@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30107.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{13A3C8AE-A16B-44FA-8D4B-F426CB5EBBA1}"
+	ProjectSection(SolutionItems) = preProject
+		dummy.proto = dummy.proto
+		greeting.proto = greeting.proto
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{55269A16-9EBC-4897-A12A-D7185337F91C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "server", "Server\server.csproj", "{9DAFEA3C-B66A-4537-B59E-60D72ADC6960}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ssl", "ssl", "{5A0BD5B0-FEAD-4C24-A9AF-56BD350C263C}"
+	ProjectSection(SolutionItems) = preProject
+		ssl.sh = ssl.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5E16496-08FD-46D6-A7BF-1839A688F135}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55269A16-9EBC-4897-A12A-D7185337F91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55269A16-9EBC-4897-A12A-D7185337F91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55269A16-9EBC-4897-A12A-D7185337F91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55269A16-9EBC-4897-A12A-D7185337F91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DAFEA3C-B66A-4537-B59E-60D72ADC6960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAFEA3C-B66A-4537-B59E-60D72ADC6960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAFEA3C-B66A-4537-B59E-60D72ADC6960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAFEA3C-B66A-4537-B59E-60D72ADC6960}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46DFC525-A301-4A27-90E8-34CBC100D00E}
+	EndGlobalSection
+EndGlobal
